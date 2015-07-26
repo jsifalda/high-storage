@@ -1,0 +1,33 @@
+{
+  "name": "high-storage",
+  "version": "0.1.0",
+  "description": "Wrapper to work with every single possible storage via same interface",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./lib && ./node_modules/.bin/babel -e 0 ./src --out-dir ./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsifalda/high-storage.git"
+  },
+  "keywords": [
+    "local",
+    "storage",
+    "storage",
+    "wrapper",
+    "interface'"
+  ],
+  "author": "Jiri Sifalda <sifalda.jiri@gmail.com> (http://jsifalda.name/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsifalda/high-storage/issues"
+  },
+  "homepage": "https://github.com/jsifalda/high-storage#readme",
+  "devDependencies": {
+    "babel": "^5.8.3"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  }
+}
