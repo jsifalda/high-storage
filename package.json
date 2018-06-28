@@ -1,6 +1,6 @@
 {
   "name": "high-storage",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Wrapper to work with every single possible storage via same interface",
   "main": "lib/index.js",
   "scripts": {
